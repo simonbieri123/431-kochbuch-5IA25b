@@ -4,7 +4,7 @@ title: "Fajitas"
 date: 2026-06-18
 draft: false
 description: "Einfache und feine Fajitas mit Poulet, Gemüse, Mais, Avocado und Crème fraîche."
-image: "images/recipes/FajitaBILD.jpeg"
+image: "static/images/recipes/FajitaBILD.jpeg"
 
 # ── Einordnung ───────────────────────────────────────────
 categories: ["Hauptgericht", "Mexikanisch"]
