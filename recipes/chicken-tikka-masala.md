@@ -1,6 +1,6 @@
 ---
 # ── Basis ────────────────────────────────────────────────
-title: "Chicken Tikka Masala aus einem Topf"
+title: "BEISPIEL: Chicken Tikka Masala aus einem Topf"
 date: 2026-06-09
 draft: false
 description: "Eine vereinfachte Wochentagsversion des geliebten indischen Klassikers — cremig, gewürzt und wohltuend."

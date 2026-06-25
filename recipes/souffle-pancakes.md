@@ -1,6 +1,6 @@
 ---
 # ── Basis ────────────────────────────────────────────────
-title: "Fluffige japanische Soufflé-Pfannkuchen"
+title: "BEISPIEL: Fluffige japanische Soufflé-Pfannkuchen"
 date: 2026-06-10
 draft: false
 description: "Wolkenartige, wackelige japanische Soufflé-Pfannkuchen, die genauso Spass machen zuzubereiten wie zu essen."

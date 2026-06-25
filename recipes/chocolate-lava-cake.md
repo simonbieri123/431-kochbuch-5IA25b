@@ -1,6 +1,6 @@
 ---
 # ── Basis ────────────────────────────────────────────────
-title: "Schokoladen-Lava-Kuchen"
+title: "BEISPIEL: Schokoladen-Lava-Kuchen"
 date: 2026-06-08
 draft: false
 description: "Beeindruckend, aber überraschend einfach — Schokoladenkuchen mit geschmolzenem Kern."

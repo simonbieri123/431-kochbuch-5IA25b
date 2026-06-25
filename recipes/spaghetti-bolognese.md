@@ -1,6 +1,6 @@
 ---
 # ── Basis ────────────────────────────────────────────────
-title: "Grossmutters klassische Spaghetti Bolognese"
+title: "BEISPIEL: Grossmutters klassische Spaghetti Bolognese"
 date: 2026-06-11
 draft: false
 description: "Eine reichhaltige, herzhafte Bolognese-Sosse, langsam und bei niedriger Hitze geschmort — genau wie bei Grossmutter."

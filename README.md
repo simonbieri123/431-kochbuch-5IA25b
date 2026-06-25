@@ -12,7 +12,33 @@ Das fertige Kochbuch findest du **[hier](https://bbw-it.github.io/431-kochbuch-5
 | Projektlead  | Tim Hug     |
 | Tech Lead    | Leon Körber |
 
-**Tech Stack:** Hugo *(? Node.js + Express)*
+**Tech Stack:** Hugo
+
+---
+
+## Rezepte der Klasse
+
+| Person   | Rezept                       |
+|----------|------------------------------|
+| Krithik  | Waffeln                      |
+| Simon    | Fajitas                      |
+| Tset     | Chicken Fried Rice           |
+| Rico     | Kaiserschmarrn               |
+| Ranja    | Ofenlachs                    |
+| Jakub    | Schoko-Tassenkuchen          |
+| Roksana  | Pfannkuchen                  |
+| Tim      | Spaghetti Bolognese          |
+| Latifa   | Pasta mit Lachs              |
+| CJ       | Flammkuchen                  |
+| Jaydon   | Pizza Prosciutto             |
+| Leon     | Poulet Tenders               |
+| Robin    | Erdbeer-Muffins              |
+| Jeremy   | Chocolate Chip Cookies       |
+| Oliver   | Banancakes                   |
+| Basim    | Poulet-Stroganov             |
+| Nolan    | Kladdkaka                    |
+| Linus    | Mac n' Cheese                |
+| Felix    | Steak und Nudeln             |
 
 ---
 
@@ -20,13 +46,13 @@ Das fertige Kochbuch findest du **[hier](https://bbw-it.github.io/431-kochbuch-5
 
 Alle `.md`-Dateien und Bilder müssen wie folgt benannt werden:
 
-> *tbd*
+> *name-vom-rezept.md*
 
 ## Rezept beisteuern
 
-1. Eine neue `.md`-Datei in `content/recipes/` erstellen mit einem URL-freundlichen Dateinamen (z.B. `mein-rezept.md`). Am einfachsten mit der Vorlage:
+1. Eine neue `.md`-Datei in `/recipes/` erstellen mit einem URL-freundlichen Dateinamen (z.B. `mein-rezept.md`). Am einfachsten mit der Vorlage:
    ```bash
-   hugo new content/recipes/mein-rezept.md
+   hugo new /recipes/mein-rezept.md
    ```
 2. **Ein Bild hinzufügen:** Querformat (ca. 8:5, z.B. 800×500) nach `static/images/recipes/` legen und im Front Matter unter `image:` eintragen. Ohne Bild wird automatisch ein Platzhalter angezeigt.
 3. Das Front Matter ausfüllen und den Rezeptinhalt schreiben (siehe Vorlage unten).
@@ -97,6 +123,50 @@ Erstelle die Kategorien, die für dein Rezept sinnvoll sind! Einige Beispiele:
 
 - Frühstück, Hauptgericht, Dessert, Suppe, Salat, Vorspeise, Beilage, Snack
 - Italienisch, Indisch, Japanisch, Mexikanisch, Französisch, Thai, usw.
+
+## Hugo installieren
+
+Um das Projekt lokal auszuführen, muss Hugo installiert sein (mindestens Version 0.128.0). Die Anleitung je Betriebssystem:
+
+### Windows
+
+1. **Scoop (empfohlen):**
+   ```powershell
+   scoop install hugo-extended
+   ```
+2. **Chocolatey:**
+   ```powershell
+   choco install hugo-extended
+   ```
+3. **Manuell:** Release von [gohugo.io](https://github.com/gohugoio/hugo/releases) herunterladen, entpacken und den Ordner zur `PATH`-Umgebungsvariablen hinzufügen.
+
+### macOS
+
+```bash
+brew install hugo
+```
+
+### Linux
+
+**Debian/Ubuntu:**
+```bash
+sudo apt install hugo
+```
+
+**Arch Linux:**
+```bash
+sudo pacman -S hugo
+```
+
+**Fedora:**
+```bash
+sudo dnf install hugo
+```
+
+Installation überprüfen:
+```bash
+hugo version
+```
 
 ## Lokal ausführen
 
